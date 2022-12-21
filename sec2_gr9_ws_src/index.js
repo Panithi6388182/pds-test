@@ -28,6 +28,8 @@ var dbconn = mysql.createConnection({
     database : process.env.db
 });
 
+console.log(host);
+
 dbconn.connect(function(err){
     if(err) throw err;
     console.log("Connected to " + process.env.db);

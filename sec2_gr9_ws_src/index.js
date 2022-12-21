@@ -28,7 +28,7 @@ var dbconn = mysql.createConnection({
     database : process.env.db
 });
 
-console.log(host);
+console.log(process.env.host);
 
 dbconn.connect(function(err){
     if(err) throw err;

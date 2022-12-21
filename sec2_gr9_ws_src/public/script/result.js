@@ -53,7 +53,7 @@ async function getCover(movieID){
 }
 
 async function callViewWS(movieID){
-    let url = "http://localhost:3030/title/";
+    let url = "http://54.167.249.32:3030/title/";
     let data;
     //console.log(movieID)
         url+=movieID

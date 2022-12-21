@@ -1,7 +1,7 @@
 function CheckUser() {
     let username = document.getElementById("Uname").value;
     let password = document.getElementById("Pass").value;
-    let rooturl = "http://localhost:3030/login/"+username+"/"+password;
+    let rooturl = "http://3.84.148.97:"+3030/login/"+username+"/"+password;
     //console.log(username, password);
 
     fetch(rooturl).then((res) => res.json()).then((data) => {

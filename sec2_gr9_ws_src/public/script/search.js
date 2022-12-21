@@ -64,7 +64,7 @@ let myForm  = document.getElementById("form1");
 if(myForm){
     myForm.addEventListener("submit", function(e){
         e.preventDefault();
-        callSearchWS("http://localhost:3030/search-movie/","submit")
+        callSearchWS("http://54.167.249.32:3030/search-movie/","submit")
         .then((data) =>{
             console.log(data);
             sessionStorage.setItem("data", JSON.stringify(data.data));

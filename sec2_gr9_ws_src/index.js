@@ -17,8 +17,8 @@ app.use(bodyParser.json());
 app.use("/", router);
 
 
-app.listen(3030, function(){
-    console.log("listening at Port " + 3030);
+app.listen(8080, function(){
+    console.log("listening at Port " + 8080);
 });
 
 var dbconn = mysql.createConnection({

@@ -7,7 +7,7 @@
 
 //     const formData = new FormData(this);
 
-//     await fetch('localhost:3030/search-movie', {
+//     await fetch('54.167.249.32:3030/search-movie', {
 //         method: "POST",
 //         body: formData
 //     }).then(function(response){
